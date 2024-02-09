@@ -3,5 +3,13 @@
 }
 
 .fondomenu2{
-    background-color: #31FF19;
+    background-color: burlywood;
 }
+
+.fuente{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: rgba(51, 80, 187, 0.845);
+    font-weight: bolder;
+}
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <main>
+    <section class="container">
+        <div class="row my-5 text-center justify-content-center">
+
+          <div class="col-2">
+            <img src="../../assets/img/frailejon.jpg" alt="frailejon2" class="img-fluid w-100 animate__animated animate__backInLeft animate__slower">
+          </div>
+          <h1 class="animate__animated animate__backInLeft animate__slower">APORTA</h1>
+
+          <div class="col-6">
+            <form class="animate__animated animate__backInRight animate__slower">
+              <div class="input-group mb-3">
+
+                  <input type="text" class="form-control" id="nombres" placeholder="Nombres y Apellidos">
+                </div>
+
+                <div class="mb-3">
+                    <label for="form-label" class="mb-3">
+                        Escoje el departamento
+                    </label>
+                    <select class="form-select" aria-label="Default select example" >
+                      <option value="1">Antioquia</option>
+                      <option value="2">Cundinamarca</option>
+                      <option value="3">Atlántico</option>
+                      <option value="4">Valle</option>
+                      <option value="5">Risaralda</option>
+                    </select>
+                    <hr>
+                    <div class="mb-3">
+                        <h4 class="mb-3">Selecciona tu tipo de aporte</h4>
+                        <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Articulos para la conservación
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Pago electronico
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Voluntariado
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Adopción de mascotas
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Donación de alimentos
+                            </label>
+                          </div>
+                      </div>
+                      <div class="mb-3">
+                        <p class="fw-bold">Quieres recibir el peluche Frailejon</p>
+                        <hr>
+                        <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Si
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                No
+              </label>
+            </div>
+         </div>
+
+         <div class="mb-3">
+            <input type="file">
+         </div>
+            </form>
+          </div>
+
+
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+
+        
+    </footer>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./src/controllers/wow.min.js"></script>
+  <script>
+    new WOW().init();
+    </script>
+  </body>
+</html>
